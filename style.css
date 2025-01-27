@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container1 {
+  max-width: 800px;
+  min-height: 150px;
+  margin-inline: auto;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-flow: row nowrap;
+} 
+.container2 {
+  max-width: 800px;
+  min-height: 150px;
+  margin-inline: auto;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: flex-start;
+  flex-flow: row nowrap;
+} 
+.container3 {
+  max-width: 800px;
+  min-height: 300px;
+  margin-inline: auto;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: flex-start;
+  flex-flow: row wrap;
+} 
+.container4 {
+  max-width: 800px;
+  min-height: 300px;
+  margin-inline: auto;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  align-items: flex-start;
+  flex-flow: row wrap;
+} 
+.container5 {
+  max-width: 800px;
+  min-height: 300px;
+  margin-inline: auto;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+} 
+
+.box {
+    min-width: 100px;
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+    font-size: 2rem;
+    padding: 0.5rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container6 {
+  max-width: 800px;
+  min-height: 300px;
+  margin-inline: auto;
+  border: 1px solid #000;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-content: space-evenly;
+  align-items: center;
+  flex-flow: row nowrap;
+} 
+.box2 {
+  
+  height: 100px;
+  background-color: #000;
+  color: #fff;
+  font-size: 2rem;
+  padding: 0.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-shrink: 1;
+  flex-basis: 200px;
+}
+
+.box2:nth-child(2){
+    flex-shrink: 2;
+}
+
+.container7 {
+    max-width: 800px;
+    min-height: 300px;
+    margin-inline: auto;
+    border: 1px solid #000;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap;
+  } 
+  .box3 {
+  
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+    font-size: 2rem;
+    padding: 0.5rem;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    flex: 1 1 150px;
+  }
+
+.box3:nth-child(2){
+    flex:2  2 150px;
+    order:-1
+}
+  
